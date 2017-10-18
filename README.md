@@ -1,6 +1,6 @@
-Minimal functionality string template header file for C++ 17
+## Minimal functionality string template header file for C++ 17
 
-Example
+### Example
 ```c++
 #include "stemplr.hpp"
 
@@ -12,3 +12,6 @@ auto result = t.run(subs);
 std::cout << result << '\n';
 // "Hello, world! Yours, Codey McCodeface"
 ```
+
+### Use
+Include stemplr.hpp and stemplr.tpp in your project/include path.
